@@ -1,0 +1,41 @@
+2019-11-27 18:18:30 AppRankAndSearchApp.py[line:26] INFO ----------进入APP主页
+2019-11-27 18:18:30 AppRankAndSearchApp.py[line:35] INFO **********调用关键字驱动**********
+2019-11-27 18:18:51 AppRankAndSearchApp.py[line:73] INFO 执行步骤“启动APP”成功
+2019-11-27 18:18:52 AppRankAndSearchApp.py[line:83] INFO 用例“进入APP主页”执行成功
+2019-11-27 18:18:52 AppRankAndSearchApp.py[line:26] INFO ----------加法测试
+2019-11-27 18:18:52 AppRankAndSearchApp.py[line:35] INFO **********调用关键字驱动**********
+2019-11-27 18:18:53 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击数字1”成功
+2019-11-27 18:18:54 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击加号”成功
+2019-11-27 18:18:56 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击数字8”成功
+2019-11-27 18:18:57 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击等号”成功
+2019-11-27 18:18:58 AppRankAndSearchApp.py[line:73] INFO 执行步骤“断言计算结果”成功
+2019-11-27 18:18:58 AppRankAndSearchApp.py[line:83] INFO 用例“加法测试”执行成功
+2019-11-27 18:18:58 AppRankAndSearchApp.py[line:26] INFO ----------除法测试
+2019-11-27 18:18:58 AppRankAndSearchApp.py[line:35] INFO **********调用关键字驱动**********
+2019-11-27 18:18:59 AppRankAndSearchApp.py[line:73] INFO 执行步骤“清除输入框中的内容”成功
+2019-11-27 18:19:01 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击数字8”成功
+2019-11-27 18:19:02 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击除号”成功
+2019-11-27 18:19:04 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击数字2”成功
+2019-11-27 18:19:05 AppRankAndSearchApp.py[line:73] INFO 执行步骤“点击等号”成功
+2019-11-27 18:19:11 AppRankAndSearchApp.py[line:79] ERROR 执行步骤“断言计算结果”失败
+异常信息：Traceback (most recent call last):
+  File "F:\pythonTest\calculatorTest\Action\BaseAction.py", line 79, in assert_element_text
+    assert assertString == getElement(driver, locationType, locatorExpression).text, "%s is not object's text!" % assertString
+AssertionError: 9 is not object's text!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "F:\pythonTest\calculatorTest\TestScripts\AppRankAndSearchApp.py", line 70, in appRankAndSearchApp
+    eval(step)
+  File "<string>", line 1, in <module>
+  File "F:\pythonTest\calculatorTest\Action\BaseAction.py", line 81, in assert_element_text
+    raise AssertionError(e)
+AssertionError: 9 is not object's text!
+
+2019-11-27 18:19:11 AppRankAndSearchApp.py[line:86] INFO 用例“除法测试”执行失败
+2019-11-27 18:19:11 AppRankAndSearchApp.py[line:26] INFO ----------退出服务
+2019-11-27 18:19:11 AppRankAndSearchApp.py[line:35] INFO **********调用关键字驱动**********
+2019-11-27 18:19:16 AppRankAndSearchApp.py[line:73] INFO 执行步骤“关闭APP”成功
+2019-11-27 18:19:16 AppRankAndSearchApp.py[line:83] INFO 用例“退出服务”执行成功
+2019-11-27 18:19:16 AppRankAndSearchApp.py[line:105] INFO 共4条用例，4条需要被执行，本次执行通过3条
